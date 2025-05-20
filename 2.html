@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <h1>Student Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Subjects</a></li>
+                <li><a href="#">Attendance</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Academic Performance Section -->
+        <section>
+            <h2>Academic Performance</h2>
+
+            <!-- Math Article -->
+            <article>
+                <h2>Math</h2>
+                <time datetime="2025-05-15">Test Date: May 15, 2025</time>
+                <p>Assignments Completed: <progress value="3" max="5"></progress></p>
+                <p>Test Score: <meter value="75" min="0" max="100" low="40" high="90" optimum="95"></meter></p>
+                <button>Show Comments</button>
+
+                <!-- Feedback Section -->
+                <details>
+                    <summary>Teacher's Feedback</summary>
+                    <p>Good performance, but needs to work on algebraic concepts.</p>
+                </details>
+            </article>
+
+            <!-- Science Article -->
+            <article>
+                <h2>Science</h2>
+                <time datetime="2025-05-10">Test Date: May 10, 2025</time>
+                <p>Assignments Completed: <progress value="4" max="5"></progress></p>
+                <p>Test Score: <meter value="85" min="0" max="100" low="40" high="90" optimum="95"></meter></p>
+                <button>Show Comments</button>
+
+                <!-- Feedback Section -->
+                <details>
+                    <summary>Teacher's Feedback</summary>
+                    <p>Excellent understanding of concepts, but needs improvement in practical applications.</p>
+                </details>
+            </article>
+        </section>
+
+        <!-- Overall Performance Summary -->
+        <section>
+            <h2>Overall Performance</h2>
+            <p>Average Score: <meter value="80" min="0" max="100"></meter></p>
+            <p>Total Assignments Completed: <progress value="7" max="10"></progress></p>
+        </section>
+
+    </main>
+
+    <!-- Sidebar with Student Information -->
+    <aside>
+        <h2>Student Profile</h2>
+        <figure>
+            <img src="student-photo.jpg" alt="Student Photo" width="150">
+            <figcaption>Harshitha</figcaption>
+        </figure>
+        <p>Name: Harshitha</p>
+        <p>Registration Number: 123456789</p>
+        <p>Semester: 3rd Semester</p>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact: info@college.edu</p>
+        <p>&copy; <time datetime="2025">2025</time> College Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
